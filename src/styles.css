@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the font and background for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FAFAFC;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color: #343a40;
+  color: #FAFAFC;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Style navigation links */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #FAFAFC;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Style the hero section */
+section.bg-light {
+  background-color: #FAFAFC;
+  padding: 80px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section.bg-light h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+}
+
+section.bg-light h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* Style the lead paragraphs */
+section.bg-light p.lead {
+  font-size: 1.25rem;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Style the images */
+section.bg-light img.img-fluid {
+  display: block;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
